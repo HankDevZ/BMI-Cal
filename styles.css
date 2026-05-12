@@ -346,6 +346,12 @@ h1 {
   font-weight: 650;
 }
 
+.footer-links {
+  display: inline-flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
 .support-main {
   min-height: calc(100vh - 72px);
   padding: 70px 0 82px;
@@ -360,6 +366,20 @@ h1 {
 .faq-list {
   width: min(920px, calc(100% - 32px));
   margin: 0 auto;
+}
+
+.privacy-list {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+}
+
+.updated-date {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ink);
 }
 
 .support-grid {
@@ -430,6 +450,7 @@ h1 {
   .support-hero,
   .support-grid,
   .faq-list,
+  .privacy-list,
   .footer-inner {
     width: min(100% - 24px, 1120px);
   }
